@@ -10,7 +10,6 @@ import { ChatService } from '../shared/chat.service';
 export class ChatComponent implements OnInit, OnDestroy {
 
   @ViewChild('chatInput') chatInput: ElementRef;
-
   public messages = [];
   public connection;
   public message;
